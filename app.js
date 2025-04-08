@@ -14,7 +14,7 @@ app.use(express.json());
 app.use('/uploads', express.static(path.join(__dirname, 'uploads')));
 
 // Routes
-const cropCategoryRoutes = require('./routes/cropCategoryRoutes');
+const cropCategoryRoutes = require('./routes/cropcategoryroutes');
 const cropListRoutes = require('./routes/cropListRoutes');
 const cropTimelineRoutes = require('./routes/timelineroutes');
 const protectionRoutes = require('./routes/protectionroutes'); // Added protection routes
